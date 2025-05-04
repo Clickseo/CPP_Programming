@@ -48,7 +48,7 @@ int main(void) {
     }
 
     // cin >> str1;
-    // cout << str1;
-
+    // cout << "str1: " << str1 << endl;
+    
     return 0;
 }
