@@ -14,9 +14,9 @@ public:
     ~myString(void);
 
     // 연산자 다중 정의: =, +, +=, ==, !=
-    myString &operator=(const myString &rStr);		// 문자열 복사(=)
-    myString operator+(const char *pStr) const;		// 문자열 결합(+)
-    myString &operator+=(const char *pStr);		    // 문자열 결합(+=)
+    myString &operator=(const myString &rStr);    // 문자열 복사(=)
+    myString operator+(const char *pStr) const;    // 문자열 결합(+)
+    myString &operator+=(const char *pStr);        // 문자열 결합(+=)
     bool operator==(const myString &rStr) const;    // 문자열 비교(==)
     bool operator!=(const myString &rStr) const;    // 문자열 비교(!=)
 
