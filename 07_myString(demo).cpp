@@ -1,3 +1,9 @@
+/*
+    myString 클래스 구현: 연산자 다중 정의
+        파일명: myString(demon).cpp
+            - main: myString: =, +, +=, ==, !=, <<, >>
+*/
+
 #include <iostream>
 #include "myString.h"
 using namespace std;
@@ -40,6 +46,9 @@ int main(void) {
     else {
         cout << "str1 != str2 >> false(일치)" << endl;
     }
+
+    // cin >> str1;
+    // cout << str1;
 
     return 0;
 }
